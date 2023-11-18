@@ -13,3 +13,6 @@ var age = params.get('age');
 // Display the values in the console
 console.log('Name: ' + name);
 console.log('Age: ' + age);
+
+document.write(name)
+document.write(age)
