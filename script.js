@@ -5,15 +5,9 @@ var url = window.location.href;
 var params = new URLSearchParams(url.split('?')[1]);
 
 // Get the value of the name parameter
-var name = params.get('name');
+var inputUrl = params.get('url');
 
-// Get the value of the age parameter
-var age = params.get('age');
+// get the element id "iframe"
+iframe = document.getElementById('iframe');
 
-// Display the values in the console
-console.log("Hello?")
-console.log('Name: ' + name);
-console.log('Age: ' + age);
-
-document.write(name)
-document.write(age)
+iframe.src = inputUrl
