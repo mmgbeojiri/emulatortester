@@ -11,6 +11,7 @@ var name = params.get('name');
 var age = params.get('age');
 
 // Display the values in the console
+console.log("Hello?")
 console.log('Name: ' + name);
 console.log('Age: ' + age);
 
